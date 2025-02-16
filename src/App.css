@@ -1,0 +1,250 @@
+/* Ensure full height */
+html, body{
+    height: 100%;
+    background-color: #e4e0dd; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefbd9;
+    min-height: auto;
+}
+
+/* Root container takes full height */
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Main app container */
+.app-container {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.breaking-news {
+    background-color: #de2424; 
+    color: white; 
+    width: 100vw; 
+    padding: 16px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-left: calc(-50vw + 50%); 
+    box-sizing: border-box; 
+}
+
+
+/* Content should take all available space */
+.content-wrap {
+    display: flex;
+    flex: 1;
+    padding: 0px;
+}
+
+.sidebar {
+    background-color: #bdbca9;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    flex: 1;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex: 3;
+}
+
+/* Navbar Styling */
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for PRABANJAM NEWS */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Arial', sans-serif;
+    color: #980b0b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link1 {
+    color: #940b0b;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px;
+    } 
+}
+
+.custom-navbar {
+    background-color: #c78007; 
+}
+
+/* Contact Page */
+  .container {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color:#940b0b;
+  }
+  h2,h3 {
+    color: #784303;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .column {
+    flex: 1;
+    min-width: 300px;
+  }
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  .contact-info ul li {
+    margin-bottom: 0.5rem;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .btn {
+    padding: 0.2rem 2rem;
+    background-color: #7e7a72;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #bb6d06;
+  }
+
+  /* footer */
+  .footer {
+    background-color: #383030;
+    color: rgb(235, 166, 109);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    position: sticky;
+    margin-top: auto; 
+  }
+
+.footer-top {
+  font-size: 16px;
+  margin-bottom: 5px; 
+  color: rgb(218, 208, 208);
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0; 
+}
+
+.help-desk {
+  margin-bottom: 10px; 
+}
+
+.help-desk .service-time {
+  font-size: 18px;
+  margin-bottom: 2px; 
+}
+
+.help-desk .phone-number {
+  font-size: 16px;
+  margin-bottom: 2px; 
+}
+
+.help-desk .service-hours {
+  font-size: 12px;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Reduced gap */
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.footer-nav li a {
+  color: #f5f4f3;
+  text-decoration: none;
+  font-size: 14px; 
+}
+
+.footer-nav li a:hover {
+  color: #f98511;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-top: 10px; 
+  font-size: 12px;
+  border-top: 1px solid rgba(235, 187, 163, 0.2);
+  padding-top: 4px;
+  margin-left: 20px; 
+  margin-right: 20px; 
+}
+
+.footer-bottom div {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom a {
+  margin:0 1rem; 
+  color: #cb9c0e;
+}

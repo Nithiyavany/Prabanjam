@@ -17,13 +17,7 @@ function Home() {
       url: "#",
       urlToImage: "https://via.placeholder.com/400x200?text=Tech+News"
     },
-    {
-      title: "உள்ளூர் செய்திகள்: புதிய சமூக மையம் திறப்பு",
-      description:
-        "தாயாரான உள்ளூர் சமூக மையம் பல புதிய வசதிகளை வழங்குகிறது.",
-      url: "#",
-      urlToImage: "https://via.placeholder.com/400x200?text=Local+News"
-    },
+    
     {
       title: "Sports Update: Championship Highlights",
       description:
